@@ -206,6 +206,13 @@ header nav ul li a:hover {
     border: 5px solid #fdffff;
     transition: all 1s
 }
+.donation-form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+}
+    
 
 /* Footer */
 footer {
