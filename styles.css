@@ -12,8 +12,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     background-repeat: no-repeat;
-    background-size:cover;
-}
+  
 header {
     background-color: #176e63;
     color: white;
@@ -88,11 +87,11 @@ header nav ul li a:hover {
 }
 
 #imageSlider img {
-    width: 60%;
+    width: 600px;
     display: none;
     height: 400px;
     border-radius: 9px;
-    margin-left: 280px;
+    margin-left: 300px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    
