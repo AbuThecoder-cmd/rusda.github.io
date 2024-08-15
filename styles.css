@@ -44,10 +44,7 @@ header nav ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:coloumn;
+   
 }
 
 #home h1 {
@@ -100,19 +97,7 @@ header nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    
 }
-@media (min-width: 768px) {
-    #imageSlider img {
-        width: 70%;
-        height: auto;
-    }
-}
 
-@media (min-width: 1024px) {
-    #imageSlider img {
-        width: 60%;
-        height: 400px;
-    }
-}
 #imageSlider img.active {
     display: block;
 }
