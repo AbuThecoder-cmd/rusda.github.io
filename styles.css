@@ -11,7 +11,8 @@ body {
     box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
-    background-repeat: no-repeat;
+ background-repeat: no-repeat;
+}
   
 header {
     background-color: #176e63;
