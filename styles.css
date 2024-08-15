@@ -1768,4 +1768,87 @@ color: white;
                 text-align: center;
               }
             }
+          /* Media Queries */
 
+/* For tablets and small screens */
+@media (min-width: 768px) {
+    #home h1 {
+        font-size: 2.5em;
+    }
+    
+    #home p {
+        font-size: 1.5em;
+    }
+    
+    #imageSlider img {
+        width: 70%;
+    }
+}
+
+/* For larger screens and desktops */
+@media (min-width: 1024px) {
+    #home h1 {
+        font-size: 3em;
+    }
+    
+    #home p {
+        font-size: 1.7em;
+    }
+    
+    #imageSlider img {
+        width: 60%;
+        height: 400px; /* Fixed height for larger screens */
+    }
+}  /* Media Queries */
+
+/* For small devices (e.g., phones) */
+@media (max-width: 480px) {
+    #home {
+        padding: 10px;
+    }
+    
+    #home h1 {
+        font-size: 1.8em;
+    }
+    
+    #home p {
+        font-size: 1em;
+    }
+    
+    #imageSlider img {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* For tablets and medium devices */
+@media (min-width: 481px) and (max-width: 1023px) {
+    #home h1 {
+        font-size: 2.5em;
+    }
+    
+    #home p {
+        font-size: 1.5em;
+    }
+    
+    #imageSlider img {
+        width: 70%;
+    }
+}
+
+/* For larger screens and desktops */
+@media (min-width: 1024px) {
+    #home h1 {
+        font-size: 3em;
+    }
+    
+    #home p {
+        font-size: 1.7em;
+    }
+    
+    #imageSlider img {
+        width: 60%;
+        height: 400px; /* Fixed height for larger screens */
+    }
+}
